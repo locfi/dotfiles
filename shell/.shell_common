@@ -4,3 +4,4 @@ alias ls='ls -lah --color=auto'
 alias ll='eza -la'
 alias grep='grep --color=auto' 
 alias df='df -h'
+#other aliases
