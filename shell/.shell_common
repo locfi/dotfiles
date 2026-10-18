@@ -1,6 +1,5 @@
 #export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
-#bla
-#
+#aliases
 alias ls='ls -lah --color=auto'
 alias ll='eza -la'
 alias grep='grep --color=auto' 
