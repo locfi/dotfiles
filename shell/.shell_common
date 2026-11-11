@@ -3,7 +3,7 @@
 #aliases
 if command -v eza &> /dev/null; then
     alias ll="eza -la --group-directories-first --icons --header"
-    alias lt="eza -la --tree --level=2 --group-directories-first --icons --header"
+    alias lt="eza --tree --level=2 --group-directories-first --icons"
 fi
 
 alias ls='ls -lah --color=auto'
