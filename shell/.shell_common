@@ -1,7 +1,12 @@
 #export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
+
 #aliases
+if comand -v eza &> /dev/null; then
+    alias ll="eza -la --group-directories-first --icons --headers"
+    alias lt="eza -la --tree --level=2 --group-directories-first --icons --headers"
+fi
+
 alias ls='ls -lah --color=auto'
-alias ll='eza -la'
 alias grep='grep --color=auto' 
 alias df='df -h'
 #other aliases
